@@ -78,12 +78,14 @@
 
 .description{
   margin-top: 100px;
+  display: flex;
+  justify-content: center;
+ }
 
-}
 .two-columns {
   display: flex;
+  justify-content: space-between;
   width: 80%;
-  margin: auto;
   }
 
 .two-columns__brief {
@@ -92,13 +94,9 @@
   line-height: 1.2;
   color:  #2f80ed;
   margin: 0;
-
 }
 
 .two-columns__main-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 80%;
   min-width: 784px;
 }
@@ -107,15 +105,17 @@
   font-size: 24px;
   line-height: 34px;
   margin: 0;
-  padding-bottom: 30px;
 }
 
-.two-columns__span-accent {
-  font-size: 24px;
-  line-height: 34px;
+.two-columns__paragraph:nth-child(2) {
+  padding-top: 30px;
+  padding-bottom: 30px;
  }
 
- .two-columns__span-accent ::before
+ .two-columns__span-accent {
+  font-weight: bold;
+ }
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
