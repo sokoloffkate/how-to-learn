@@ -116,6 +116,11 @@
   font-weight: bold;
  }
 
+ .digits {
+   width: 1100px;
+   display: flex;
+ }
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
