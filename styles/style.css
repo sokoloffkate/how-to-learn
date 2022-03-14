@@ -22,19 +22,20 @@
   overflow: hidden;
 }
 
+.logo {
+  width: 183px;
+}
+
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  width: 183px;
   height: 32px;
   z-index: 1;
 }
 
 .header__title {
   margin: 0 0 0 64px;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
   align-self: center;
   width: 730px;
   font-size: 102px;
@@ -96,6 +97,7 @@
   font-size: 18px;
   line-height: 1.2;
   color:  #2f80ed;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -269,7 +271,6 @@
 }
 
 .logo_place_foooter {
-  width: 183px;
   height: 35px;
 }
 
